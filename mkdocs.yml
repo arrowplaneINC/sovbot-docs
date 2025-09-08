@@ -1,7 +1,7 @@
 site_name: SovBot Docs
 site_description: Documentation for SovBot workflows, commands, and operations
-site_url: https://example.com/sovbot-docs
-repo_url: https://example.com/repo
+site_url: https://arrowplaneinc.github.io/sovbot-docs/
+repo_url: https://github.com/arrowplaneINC/sovbot-docs
 
 theme:
   name: material
