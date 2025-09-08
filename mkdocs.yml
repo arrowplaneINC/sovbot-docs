@@ -1,0 +1,52 @@
+site_name: SovBot Docs
+site_description: Documentation for SovBot workflows, commands, and operations
+site_url: https://example.com/sovbot-docs
+repo_url: https://example.com/repo
+
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.sections
+    - content.code.copy
+extra:
+  generator: false
+
+nav:
+  - Home: index.md
+  - Workflows:
+      - Onboarding: workflows/onboarding.md
+  - Commands:
+      - /rank: commands/rank.md
+      - /balance: commands/balance.md
+      - /wallet: commands/wallet.md
+      - /work: commands/work.md
+      - /shop: commands/shop.md
+      - /inventory: commands/inventory.md
+      - /boost: commands/boost.md
+      - /throw: commands/throw.md
+      - /bonk: commands/bonk.md
+      - /leaderboard: commands/leaderboard.md
+      - /coins: commands/coins.md
+      - /xpcooldown: commands/xpcooldown.md
+      - /adminreset: commands/adminreset.md
+      - /resetonboarding: commands/resetonboarding.md
+      - /onboarding: commands/onboarding.md
+      - /postweekly: commands/postweekly.md
+      - /close: commands/close.md
+      - /ping: commands/ping.md
+      - /botstats: commands/botstats.md
+      - /commands: commands/commands.md
+      - /status: commands/status.md
+      - /admindmsend: commands/admindmsend.md
+  - Mechanics:
+      - XP & Coins: mechanics/xp-coins.md
+  - Outstanding Decisions: outstanding-decisions.md
+  - Change Log: change-log.md
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - tables
+  - footnotes

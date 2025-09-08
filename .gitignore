@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+
+# MkDocs build output
+site/
+
+# Environments
+.env
+.venv/
+venv/
+
+# OS files
+.DS_Store
+Thumbs.db
